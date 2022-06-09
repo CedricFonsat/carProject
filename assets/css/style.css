@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@300;600&display=swap%27');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/******************* Header ******************/
+
+header{
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+h1{
+    font-family: Helvetica, sans-serif!important;
+    font-size: 96px!important;
+    display: flex!important;
+    letter-spacing: 10px!important;
+    justify-content: flex-end!important;
+    padding: 160px 250px 0 0!important;
+    color: black;
+}
+.bottom-title{
+    font-size: 18px!important;
+    display: flex!important;
+    padding-right: 214px!important;
+    letter-spacing: 2px!important;
+    justify-content: flex-end!important;
+    font-family: 'Lexend Tera', sans-serif!important;
+    color: black;
+}
+.bottom-scroll{
+    position: absolute !important;
+    bottom: 15px;
+    width: 100%;
+    text-align: center; 
+}
+
+/******************** about  ******************/
+.img-about{
+    width: 50vw;
+    height: 50vh;
+}
+.text-about{
+    text-align: left;
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 12px;
+}
+.title-about{
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0 30px 0 !important;
+    font-size: 20px !important;
+}
+.text{
+  padding: 30px 80px 0 80px !important; 
+}
+article{
+    padding: 0 !important;
+}
+.span-about{
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight: 600 !important;
+}
+.button-about{
+    font-family: 'Lexend Tera', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+
+/* modal 3d vehicule */
+
+model-viewer {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+.modal-content{
+    width: 800px !important;
+    height: 500px!important;
+}
+.modal-dialog{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-close{
+    font-size: 18px;
+}
+
+/********/
+
+/**************** reservation **************/
+
+#reservation{
+    display: block!important;
+}
+.video{
+    width: 100%;
+
+}
+.video video{
+    width: 600px;
+}
+.grid-container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    top: 0;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 20px !important;
+    text-align: center;
+    color: white;
+  }
+  .text-left-reservation{
+      padding-left: 165px !important;
+  }
+  
+
+  /**************** Footer ************/
+
+footer{
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight: 600 !important;
+}
+
+.mentions{
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.copyright{
+    font-size: 12px;
+    font-weight: 300;
+}
+.logo-footer{
+    width: 30px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>Car Project</title>
+</head>
+
+<body>
+    <header id="home">
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="#home" class="dot active" data-scroll="home">
+                        <span>home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="dot" data-scroll="about">
+                        <span>about</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#reservation" class="dot" data-scroll="reservation">
+                        <span>reservation</span>
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+        <h1 class="fw-bold">BMW i8</h1>
+        <p class="bottom-title fw-bold">Le meilleur de l'automobile.</p>
+        <div class="bottom-scroll"><a href="#about"><img src="assets/image/Group.png" alt="bottom slide"></a></div>
+    </header>
+
+    <main>
+        <section class="sec" id="about">
+            <h2 class="d-none">A propos</h2>
+            <section class="container-fluid about">
+                <h2 class="d-none">A propos</h2>
+                <article class="row">
+                    <h3 class="d-none">A propos</h3>
+                    <article class="col-12 col-lg-6">
+                        <h3 class="d-none">interieur de BMW i8</h3>
+                        <img class="img-about w-100" src="assets/image/2019-bmw-i8-coupe_2.jpg" alt="interieur de bmw">
+                    </article>
+                    <article class="col-12 col-lg-6 p-2 text">
+                        <h3 class="d-none">description de BMW i8</h3>
+                        <h2 class="fw-bold title-about text-center">BMW i8</h2>
+                        <p class="text-about text-center">La BMW i8 est un superbe coupé 2+2 hybride rechargeable qui
+                            s’inscrit dans
+                            pleinement dans la
+                            gamme i.
+                            Elle allie la sensibilité pour le développement durable et la sportivité dans une voiture
+                            premium.</p>
+                        <div class="row me-5"> <button
+                                class="button-about offset-3 offset-lg-5 mt-3 col-10 col-lg-4 btn bg-black text-white"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">Modèle
+                                3D</button></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-black" id="exampleModalLabel">BMW i8</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <model-viewer src="assets/3d/bmw_i8/scene.gltf" camera-controls></model-viewer>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </article>
+                <article class="row">
+                    <h3 class="d-none">caractéristique de BMW i8</h3>
+                    <article class="col-12 col-lg-6 text">
+                        <h4 class="fw-bold title-about text-center">CARACTÉRISTIQUES TECHNIQUES</h4>
+                        <p class="pt-3 text-about">Puissance : <span class="span-about">374ch</span> </p>
+                        <p class="text-about">Vitesse max : <span class="span-about">250 km/h</span> </p>
+                        <p class="text-about">Accélération (0 à 100km): <span class="span-about">4.4s</span> </p>
+                        <p class="text-about">Carburant : <span class="span-about">Hybride Essence</span> </p>
+
+                    </article>
+                    <article class="col-lg-6">
+                        <h3 class="d-none">image de BMW i8</h3>
+                        <img class="img-about w-100" src="assets/image/2019-bmw-i8-coupe_1.jpg" alt="bmw i8">
+                    </article>
+                </article>
+            </section>
+        </section>
+        <section class="sec mt-0" id="reservation">
+            <h2 class="d-none">A propos</h2>
+            <article class="bg-black grid-container p-4">
+                <h3 class="d-none">reserver votre vehicule</h3>
+                <div class="grid-item text-left-reservation ">
+                    <h4 class="text-uppercase h5 mt-2">trouvez le modèle de vos rèves</h4>
+                </div>
+                <div class="grid-item"><a href="" class="btn btn-light mb-1 text-uppercase">reservez votre vehicule</a>
+                </div>
+            </article>
+            <article class="col-lg-8 mx-auto mt-5">
+                <h3 class="d-none">Video de BMW i8</h3>
+                <video class="w-100" controls src="assets/video/vidéo.mp4"></video>
+            </article>
+        </section>
+    </main>
+
+    <footer class="bg-black text-white text-center">
+        <a href=""> <img class="pt-4 logo-footer" src="assets/image/facebook.png" alt="facebook" ></a>
+        <a href=""> <img class="pt-4 logo-footer" src="assets/image/twitter.png" alt="twitter" ></a>
+        <a href=""> <img class="pt-4 logo-footer" src="assets/image/instagram.png" alt="instagram" ></a>
+        <p class="mentions pt-4">Mentions légales</p>
+        <p class="pb-4 m-0 copyright">© Copyright BMW France 2022</p>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

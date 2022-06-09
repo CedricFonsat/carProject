@@ -1,0 +1,70 @@
+@media screen and (max-width:768px) {
+    header{
+        background-image: url(../image/bmw.jpg);
+        box-shadow: inset 0  8em 16em rgb(255, 255, 255);
+        background-size: cover;
+        height: 100vh;
+    }
+    nav{
+        display: none !important;
+    }
+    h1{
+        font-family: Helvetica, sans-serif!important;
+        justify-content: center!important;
+        font-size: 4em!important;
+        letter-spacing: 0px!important;
+        padding: 0!important;
+        margin: 0!important;
+        color: #3f7199;
+        align-items: center;
+    }
+    model-viewer {
+        width: 100%;
+        height: 600px;
+        margin: 0 auto;
+    }
+    .bottom-title{
+        font-size: 18px!important;
+        display: flex!important;
+        padding: 0px!important;
+        color: #3f7199;
+        margin: 0!important;
+        justify-content: center!important;
+        text-align: center;
+    }
+    .bottom-scroll{
+        bottom: 85px;
+    }
+    .img-about{
+        width: 100%;
+        height: 100%;
+    }
+    .text{
+        padding: 15px!important;
+        margin: 0!important;
+    }
+    .title-about,.text-about{
+        display: flex;
+        justify-content: center;
+    }
+    .button-about{
+        margin-right: 15px;
+        margin-left: 60px;
+    }
+    #reservation{
+        display: block;
+    }
+    #reservation > article{
+        width: 100%;
+    }
+    .text-left-reservation {
+         padding-left: 0px !important;
+    }
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    .grid-item{
+        grid-column: 1;
+        text-align: center;
+      }
+    }
